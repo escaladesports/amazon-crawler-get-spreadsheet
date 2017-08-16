@@ -1,0 +1,15 @@
+{
+  "name": "amazon-crawler-get-spreadsheet",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Kennedy Rose <krose@escaladesports.com>",
+  "private": true,
+  "scripts": {
+    "start": "node index",
+    "test": "node index"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "google-spreadsheet": "^2.0.4"
+  }
+}
