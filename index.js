@@ -50,8 +50,8 @@ function getData(sheet){
 	})
 }
 
-auth()
-	.then(getWorksheet)
-	.then(getData)
-	.then(console.log)
-	.catch(console.error)
+module.exports = () => {
+	return auth()
+		.then(getWorksheet)
+		.then(getData)
+}
